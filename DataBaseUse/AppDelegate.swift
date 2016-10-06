@@ -1,13 +1,14 @@
 //
 //  AppDelegate.swift
-//  DataBaseUse
+//  sqldataBaseUse
 //
 //  Created by lotawei on 16/9/23.
 //  Copyright © 2016年 lotawei. All rights reserved.
 //
 
 import UIKit
-
+public   let   ScreenWidth = UIScreen.main.bounds.width
+public   let   ScreenHeight = UIScreen.main.bounds.height
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         return true
     }
 
